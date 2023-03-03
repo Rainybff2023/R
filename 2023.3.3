@@ -1,0 +1,30 @@
+getwd()                               获得当前工作路径
+setwd(dir = "路径")                   设置工作路径
+rm(a)                                 删除对象a
+save.image()                          保存工作文件
+updata.package()                      更新R包
+help(package = "")                    获取该R包的帮助文件
+[,1]                                  访问数据的第一列
+example()                             展示内置案例
+class()                               查看对象的类型（如矩阵、向量、数值等）
+head()                                查看对象的前6行
+tail()                                查看对象的后6行
+c()                                   定义向量
+print()                               展示数据
+mode()                                查看数据类型
+na.rm = TRUE                          去除缺失值
+is.na()                               检查是否有缺失值   
+na.omit()                             删除包含缺失值的行
+nchar()                               统计字符串长度
+substr(x = ,start = 1, stop = 3)      提取字符串（首字母大写）
+toupper()                             将字符串都转化成大写
+tolower()                             将字符串都转化成小写
+gsub("^(\\w)","\\U\\1",tolower(temp),perl = T) 首字母大写
+gsub("^(\\w)","\\L\\1",upper(temp),perl = T)   首字母小写
+Sys.Date()                            显示目前系统的时间
+read.table("c:/路径",seq = "")        读取excel
+read.table(网址)                      读取网站内容
+read.table("clipboard")               读取剪切板中的文件
+read.table(gzfile("文件"))            读取压缩文件
+write(x,file = "x,txt")               输出文本
+write.table(x,gzfile("文件名")         输出压缩文件
